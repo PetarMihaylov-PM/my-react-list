@@ -3,14 +3,16 @@ import { Fragment } from 'react';
 
 const root = createRoot(document.getElementById('root'));
 
-root.render(
-  <Page />
-);
+function Header() {
+   return (
+      <header>
+         <img src="src/assets/react.svg" alt="React logo" width='90px'/>
+      </header>
+   )
+}
 
-function Page() {
-  return (
-    <>
-      <Header />
+function MainContent() {
+   return (
       <main>
          <h1>Why is React important</h1>
          <ul>
@@ -19,17 +21,28 @@ function Page() {
          <li>Its component-based structure aids maintainability.</li>
          </ul>
       </main>
+   )
+}
+
+function Footer() {
+   return (
       <footer>
          <small>© 2025 Mihaylov development. All rights reserved</small>
       </footer>
+   )
+}
+
+function Page() {
+  return (
+    <>
+      <Header />
+      <MainContent />
+      <Footer />
     </>
   )
 }
 
-function Header() {
-   return (
-      <header>
-         <img src="src/assets/react.svg" alt="React logo" width='90px'/>
-      </header>
-   )
-} 
+root.render(
+   <Page />
+ );
+ 
