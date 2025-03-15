@@ -1,12 +1,17 @@
 import { createRoot } from 'react-dom/client';
-import { Fragment } from 'react';
-
 const root = createRoot(document.getElementById('root'));
 
 function Header() {
    return (
-      <header>
+      <header className='header'>
          <img src="src/assets/react.svg" alt="React logo" width='90px'/>
+         <nav>
+            <ul className="nav-list">
+               <li>Pricing</li>
+               <li>About</li>
+               <li>Contact</li>
+            </ul>
+         </nav>
       </header>
    )
 }

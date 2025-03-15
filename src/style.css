@@ -9,6 +9,20 @@ h1 {
   margin-top: 30px;
 }
 
-img {
-  margin-left: 130px;
+.nav-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-list li {
+  padding-right: 10px;
+  font-size: 18px;
+  font: bold;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
