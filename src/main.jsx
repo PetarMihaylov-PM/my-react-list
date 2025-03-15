@@ -3,7 +3,11 @@ import { createRoot } from "react-dom/client";
 const root = createRoot(document.getElementById('root'));
 
 root.render(
-  <TestFunction />
+  <div className="test-div">
+    <TestFunction />
+    <WhyIsReactImportant />
+  </div>
+  
 )
 
 function TestFunction() {
@@ -19,5 +23,19 @@ function TestFunction() {
       <li>Powers thousands of enterpise apps, including mobile apps</li>
     </ul>
   </main>
+  )
+}
+
+function WhyIsReactImportant() {
+  return (
+    <main>
+      <img src="src/assets/react.svg" alt="React logo" width='70px'/>
+      <h1>Why is React important</h1>
+      <ul>
+        <li>React is important for building fast, interactive UIs with reusable components.</li>
+        <li>It improves performance with a virtual DOM and simplifies scaling applications.</li>
+        <li>Its component-based structure aids maintainability, and its large ecosystem boosts development efficiency.</li>
+      </ul>
+    </main>
   )
 }
