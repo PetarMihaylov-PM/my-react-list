@@ -4,7 +4,7 @@ const root = createRoot(document.getElementById('root'));
 function Header() {
    return (
       <header className='header'>
-         <img src="src/assets/react.svg" alt="React logo" width='90px'/>
+         <img src="src/assets/react.svg" alt="React logo" className='react-img'/>
          <nav>
             <ul className="nav-list">
                <li>Pricing</li>
