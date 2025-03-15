@@ -3,6 +3,11 @@ import { createRoot } from "react-dom/client";
 const root = createRoot(document.getElementById('root'));
 
 root.render(
+  <TestFunction />
+)
+
+function TestFunction() {
+  return (
   <main>
     <img src="src/assets/react.svg" alt="React logo" width='70px'/>
     <h1>Fun facts about React!</h1>
@@ -14,5 +19,5 @@ root.render(
       <li>Powers thousands of enterpise apps, including mobile apps</li>
     </ul>
   </main>
-  
-)
+  )
+}
