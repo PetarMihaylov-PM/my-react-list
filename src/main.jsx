@@ -18,20 +18,20 @@ function Header() {
 
 function MainContent() {
    return (
-      <main>
+      <main className='main'>
          <h1>Why is React important</h1>
-         <ul>
-         <li>React is important for building fast, interactive UIs with reusable components.</li>
-         <li>It improves performance with a virtual DOM and simplifies scaling applications.</li>
+         <ol>
+         <li>React is important for building fast, interactive UIs with reusable components.</li> <br />
+         <li>It improves performance with a virtual DOM and simplifies scaling applications.</li> <br />
          <li>Its component-based structure aids maintainability.</li>
-         </ul>
+         </ol>
       </main>
    )
 }
 
 function Footer() {
    return (
-      <footer>
+      <footer className='footer'>
          <small>© 2025 Mihaylov development. All rights reserved</small>
       </footer>
    )
