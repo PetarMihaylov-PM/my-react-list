@@ -9,6 +9,10 @@ body {
   background: #27292c;
   color: white;
   flex-direction: column;
+  background-image: url('C:\Users\Mihailov\Desktop\javascript.course\React Projects\my-react-list\src\assets\react.svg');
+  background-size: 200% 120%;
+  background-repeat: no-repeat;
+  background-position-y: 80px
 }
 
 .header {
