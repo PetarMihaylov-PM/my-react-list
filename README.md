@@ -2,4 +2,4 @@
 
 ###
 
-A simple static React list I built as part of an exercise, focusing on rendering data efficiently with React. The project helped reinforce fundamental concepts like components, props, and mapping over arrays to display dynamic content. While basic, it served as a great practice in structuring React applications and handling lists in a clean, reusable way. 💡
+A simple static React list project created as an exercise, focusing on rendering and structuring the app into components. The goal was to break down the UI into reusable parts, ensuring clean and modular code. This exercise helped reinforce the core principles of React, such as component-based architecture and efficient rendering. 💡
